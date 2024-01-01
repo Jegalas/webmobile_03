@@ -13,7 +13,7 @@ const Home = () => {
     },
     {
       img: Card2,
-      title: "2. Weather app",
+      title: "2. YES app",
       p: "It was our second assignment and we were required to developing a real-time weather teller app. In other words, we should calculate  the current geolocation's latitude and longitude by using the Geolocation API and to obtain the current weather at the place mentioned by user by using any weather APIs. The user was able to receive data about weather condition with detailed information(temp, pressure, humidity).Actually, the aim of this assignment was to demonstrate our knowledge of JavaScript, HTML and CSS.",
     },
     {
