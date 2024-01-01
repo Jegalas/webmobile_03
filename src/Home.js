@@ -8,8 +8,8 @@ const Home = () => {
   const assignments = [
     {
       img: Card1,
-      title: "1. Personal Website with Digital Personal Card",
-      p: " The first homework of our course was mainly based on our activities during the lectures since creating first website is best    technique to understand all features of HTML and CSS. Actually, personal website demonstrates information related to preferences, hobbies , and even education of each member. While digital personal card can be described as summary of our websites.",
+      title: "1. Personal Website",
+      p: " The first HW of our course was mainly based on our activities during the lectures since creating first website is best    technique to understand all features of HTML and CSS. Actually, personal website demonstrates information related to preferences, hobbies , and even education of each member. While digital personal card can be described as summary of our websites.",
     },
     {
       img: Card2,
