@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Home";
 import NavbarComponent from "./Navbar";
 import { Container } from "react-bootstrap";
-import Card from "./Card"; // Import the Card component
+import Card from "./Card";
 import Contact from "./Contact";
 
 function App() {
