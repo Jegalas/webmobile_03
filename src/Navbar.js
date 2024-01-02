@@ -8,7 +8,7 @@ const NavbarComponent = () => {
       <Navbar variant="light" bg="light">
         <Nav className="me-auto d-flex justify-content-around w-100 align-items-center">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/movies">Flash Cards</NavLink>
+          <NavLink to="/card">Flash Cards</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <NavDropdown title="Github" id="basic-nav-dropdown">
             <NavDropdown.Item href="https://github.com/Jegalas">Profile</NavDropdown.Item>
@@ -16,6 +16,7 @@ const NavbarComponent = () => {
           </NavDropdown>
         </Nav>
       </Navbar>
+    
     </header>
   );
 };
