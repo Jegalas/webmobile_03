@@ -8,12 +8,12 @@ const Home = () => {
   const assignments = [
     {
       img: Card1,
-      title: "1. Personal Website",
-      p: " The first HW of our course was mainly based on our activities during the lectures since creating first website is best    technique to understand all features of HTML and CSS. Actually, personal website demonstrates information related to preferences, hobbies , and even education of each member. While digital personal card can be described as summary of our websites.",
+      title: "1. Personal Website with Digital Personal Card",
+      p: " The first homework of our course was mainly based on our activities during the lectures since creating first website is best    technique to understand all features of HTML and CSS. Actually, personal website demonstrates information related to preferences, hobbies , and even education of each member. While digital personal card can be described as summary of our websites.",
     },
     {
       img: Card2,
-      title: "2. YES app",
+      title: "2. Weather app",
       p: "It was our second assignment and we were required to developing a real-time weather teller app. In other words, we should calculate  the current geolocation's latitude and longitude by using the Geolocation API and to obtain the current weather at the place mentioned by user by using any weather APIs. The user was able to receive data about weather condition with detailed information(temp, pressure, humidity).Actually, the aim of this assignment was to demonstrate our knowledge of JavaScript, HTML and CSS.",
     },
     {

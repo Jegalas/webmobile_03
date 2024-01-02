@@ -11,9 +11,9 @@ const NavbarComponent = () => {
           <NavLink to="/movies">Movie</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <NavDropdown title="Github" id="basic-nav-dropdown">
-            <NavDropdown.Item href="https://github.com/Shafiga2000"></NavDropdown.Item>
-            <NavDropdown.Item href="https://github.com/ulviyyamammadova"></NavDropdown.Item>
-            <NavDropdown.Item href="https://github.com/isalahov12393"></NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/Shafiga2000">Shafiga Hasanova</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/ulviyyamammadova">Ulviyya Mammdova</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/isalahov12393">Isa Salahov</NavDropdown.Item>
           </NavDropdown>
           <NavLink to="#">Youtube</NavLink>
         </Nav>
