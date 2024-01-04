@@ -30,7 +30,7 @@ const Home = () => {
     <div className="assignment">
       <div>
         <p>
-          Welcome to my web page. I am Sadig Khudaverdiyev. I am an ADA University student. On this page, I want to show you my assignments from the Web Mobile I course.
+          Welcome to my web page. I am Sadig Khudaverdiyev. I am ADA University student. On this page, I want to show you my assignments from the Web Mobile I course.
         </p>
       </div>
       <div>

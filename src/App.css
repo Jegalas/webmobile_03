@@ -67,21 +67,6 @@ a {
   text-decoration: none !important;
 }
 
-.movie-body {
-  background-color: rgb(48, 45, 45);
-  border: 10px gray;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 12%;
-  margin-bottom: 12%;
-  padding: 10%;
-  border-radius: 5%;
-}
-
-.movie-below {
-  padding-top: 15%;
-  padding-bottom: 10%;
-}
 
 .button {
   background-color: rgb(71, 70, 70);
