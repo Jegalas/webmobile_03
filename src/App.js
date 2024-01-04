@@ -5,7 +5,6 @@ import Home from "./Home";
 import NavbarComponent from "./Navbar";
 import { Container } from "react-bootstrap";
 import Contact from "./Contact";
-import Fcard from "./Fcard";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Routes>
             <Route exact element={<Home />} path="/" />
             <Route exact element={<Contact />} path="/contact" />
-            <Route exact element={<Fcard eng="English" han="Chinese" pin="Pinyin" />} path="/flash card" />
           </Routes>
         </Container>
       </Router>
