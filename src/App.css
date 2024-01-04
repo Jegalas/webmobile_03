@@ -74,3 +74,63 @@ a {
   border: 0.5px white;
   border-radius: 18%;
 }
+
+
+.fcard-container {
+  cursor: pointer;
+  height: 400px;
+  width: 400px;
+  perspective: 800px;
+  position: relative;
+  margin: auto;
+  transition: ease-in;
+}
+
+.fcard {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  border: 1px solid #300;
+  transform-style: preserve-3d;
+  transition: all 0.4s ease-in-out;
+}
+
+.fcard:hover {
+  transform: rotateY(180deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.fcard .front {
+  height: 400px;
+  width: 400px;
+  backface-visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(255, 251, 251, 1);
+}
+
+.fcard .back {
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.feng{
+  color: #333;
+  font-size: 2.3em;
+  padding-top: 40%;
+}
+
+.fhan{
+  color: #333;
+  font-size: 6.3em;
+  padding-top: 20%;
+}
+
+.fpin{
+    color: rgba(200, 10, 10, 1);
+    font-size: 2.3em;
+    padding-top: 10%;
+}
